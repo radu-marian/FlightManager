@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/radu/Projects/FlightsManager/src/FlightsManager.cpp
+/home/radu/Projects/FlightsManager/include/InitialMenu.h
 iostream
 -
+memory
+-
+./LogIn.h
+/home/radu/Projects/FlightsManager/include/LogIn.h
+
+/home/radu/Projects/FlightsManager/include/LogIn.h
+iostream
+-
+
+/home/radu/Projects/FlightsManager/src/InitialMenu.cpp
+../include/InitialMenu.h
+/home/radu/Projects/FlightsManager/include/InitialMenu.h
 

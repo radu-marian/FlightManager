@@ -150,6 +150,60 @@ src/FlightsManager.cpp.s:
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/FlightsManager.cpp.s
 .PHONY : src/FlightsManager.cpp.s
 
+src/InitialMenu.o: src/InitialMenu.cpp.o
+
+.PHONY : src/InitialMenu.o
+
+# target to build an object file
+src/InitialMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o
+.PHONY : src/InitialMenu.cpp.o
+
+src/InitialMenu.i: src/InitialMenu.cpp.i
+
+.PHONY : src/InitialMenu.i
+
+# target to preprocess a source file
+src/InitialMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/InitialMenu.cpp.i
+.PHONY : src/InitialMenu.cpp.i
+
+src/InitialMenu.s: src/InitialMenu.cpp.s
+
+.PHONY : src/InitialMenu.s
+
+# target to generate assembly for a file
+src/InitialMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/InitialMenu.cpp.s
+.PHONY : src/InitialMenu.cpp.s
+
+src/LogIn.o: src/LogIn.cpp.o
+
+.PHONY : src/LogIn.o
+
+# target to build an object file
+src/LogIn.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/LogIn.cpp.o
+.PHONY : src/LogIn.cpp.o
+
+src/LogIn.i: src/LogIn.cpp.i
+
+.PHONY : src/LogIn.i
+
+# target to preprocess a source file
+src/LogIn.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/LogIn.cpp.i
+.PHONY : src/LogIn.cpp.i
+
+src/LogIn.s: src/LogIn.cpp.s
+
+.PHONY : src/LogIn.s
+
+# target to generate assembly for a file
+src/LogIn.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/LogIn.cpp.s
+.PHONY : src/LogIn.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,6 +216,12 @@ help:
 	@echo "... src/FlightsManager.o"
 	@echo "... src/FlightsManager.i"
 	@echo "... src/FlightsManager.s"
+	@echo "... src/InitialMenu.o"
+	@echo "... src/InitialMenu.i"
+	@echo "... src/InitialMenu.s"
+	@echo "... src/LogIn.o"
+	@echo "... src/LogIn.i"
+	@echo "... src/LogIn.s"
 .PHONY : help
 
 

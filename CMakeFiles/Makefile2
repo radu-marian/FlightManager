@@ -74,12 +74,12 @@ clean: CMakeFiles/my_exe.dir/clean
 CMakeFiles/my_exe.dir/all:
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/depend
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=1,2 "Built target my_exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=1,2,3,4 "Built target my_exe"
 .PHONY : CMakeFiles/my_exe.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/my_exe.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/radu/Projects/FlightsManager/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/radu/Projects/FlightsManager/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/my_exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/radu/Projects/FlightsManager/CMakeFiles 0
 .PHONY : CMakeFiles/my_exe.dir/rule
