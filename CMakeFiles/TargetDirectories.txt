@@ -1,0 +1,3 @@
+/home/radu/Projects/FlightsManager/CMakeFiles/rebuild_cache.dir
+/home/radu/Projects/FlightsManager/CMakeFiles/edit_cache.dir
+/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o  -o my_exe 
