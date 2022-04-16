@@ -1,5 +1,8 @@
 #pragma once
 #include <iostream>
+#include <string>
+#include <unordered_map>
+#include <fstream>
 
 class LogIn
 {
@@ -9,4 +12,6 @@ private:
 public:
     LogIn();
     void GetCredentials();
+    void HashPassword();
+    void CheckUser();
 };
