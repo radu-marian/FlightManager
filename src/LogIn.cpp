@@ -47,11 +47,9 @@ void LogIn::CheckUser()
 
         if (email == temp_email)
         {
-            std::cout << "\n" << password << "\n";
-            std::cout << temp_password << "\n";
             if (password == temp_password)
             {
-                std::cout << "It is alrigth!\n";
+                std::cout << "You are logged in!\n";
             }
             else
             {

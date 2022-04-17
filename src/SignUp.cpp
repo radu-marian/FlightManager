@@ -85,7 +85,7 @@ void SignUp::CheckValidity()
 
         for (auto car : first_name)
         {
-            if (!isalpha(car))
+            if (!isalpha(car) || car == ' ')
             {
                 throw "Invalid first name";
             }
@@ -93,10 +93,15 @@ void SignUp::CheckValidity()
 
         for (auto car : last_name)
         {
-            if (!isalpha(car))
+            if (!isalpha(car) || car == ' ')
             {
                 throw "Invalid last name";
             }
+        }
+
+        if (phone_number.length() != 10)
+        {
+            throw "Invalid phone number";
         }
 
         for (auto car : phone_number)
