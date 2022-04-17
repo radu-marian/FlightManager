@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/radu/Projects/FlightsManager/src/FlightsManager.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
   "/home/radu/Projects/FlightsManager/src/InitialMenu.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
   "/home/radu/Projects/FlightsManager/src/LogIn.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/LogIn.cpp.o"
+  "/home/radu/Projects/FlightsManager/src/SignUp.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/SignUp.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

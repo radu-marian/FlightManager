@@ -204,6 +204,33 @@ src/LogIn.cpp.s:
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/LogIn.cpp.s
 .PHONY : src/LogIn.cpp.s
 
+src/SignUp.o: src/SignUp.cpp.o
+
+.PHONY : src/SignUp.o
+
+# target to build an object file
+src/SignUp.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.o
+.PHONY : src/SignUp.cpp.o
+
+src/SignUp.i: src/SignUp.cpp.i
+
+.PHONY : src/SignUp.i
+
+# target to preprocess a source file
+src/SignUp.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.i
+.PHONY : src/SignUp.cpp.i
+
+src/SignUp.s: src/SignUp.cpp.s
+
+.PHONY : src/SignUp.s
+
+# target to generate assembly for a file
+src/SignUp.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.s
+.PHONY : src/SignUp.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... src/LogIn.o"
 	@echo "... src/LogIn.i"
 	@echo "... src/LogIn.s"
+	@echo "... src/SignUp.o"
+	@echo "... src/SignUp.i"
+	@echo "... src/SignUp.s"
 .PHONY : help
 
 

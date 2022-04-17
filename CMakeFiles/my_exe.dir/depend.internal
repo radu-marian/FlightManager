@@ -4,11 +4,16 @@
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o
  /home/radu/Projects/FlightsManager/include/InitialMenu.h
  /home/radu/Projects/FlightsManager/include/LogIn.h
+ /home/radu/Projects/FlightsManager/include/SignUp.h
  /home/radu/Projects/FlightsManager/src/FlightsManager.cpp
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o
  /home/radu/Projects/FlightsManager/include/InitialMenu.h
  /home/radu/Projects/FlightsManager/include/LogIn.h
+ /home/radu/Projects/FlightsManager/include/SignUp.h
  /home/radu/Projects/FlightsManager/src/InitialMenu.cpp
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o
  /home/radu/Projects/FlightsManager/include/LogIn.h
  /home/radu/Projects/FlightsManager/src/LogIn.cpp
+CMakeFiles/my_exe.dir/src/SignUp.cpp.o
+ /home/radu/Projects/FlightsManager/include/SignUp.h
+ /home/radu/Projects/FlightsManager/src/SignUp.cpp

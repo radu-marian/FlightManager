@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o CMakeFiles/my_exe.dir/src/LogIn.cpp.o  -o my_exe 
+/usr/bin/c++     CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o CMakeFiles/my_exe.dir/src/LogIn.cpp.o CMakeFiles/my_exe.dir/src/SignUp.cpp.o  -o my_exe 

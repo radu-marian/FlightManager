@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
   "CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
   "CMakeFiles/my_exe.dir/src/LogIn.cpp.o"
+  "CMakeFiles/my_exe.dir/src/SignUp.cpp.o"
   "my_exe"
   "my_exe.pdb"
 )

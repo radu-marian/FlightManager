@@ -32,6 +32,7 @@ void LogIn::CheckUser()
 
     this->HashPassword();
 
+
     std::cout << file.is_open();
 
     while (std::getline(file, line))
@@ -58,13 +59,6 @@ void LogIn::CheckUser()
                 std::cout << "Incorrect password!\n";
             }
         }
-        else
-        {
-            std::cout << "You are not registered!\n";
-        }
-
     }
-
-
     file.close();
 }

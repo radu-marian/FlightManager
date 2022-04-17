@@ -3,12 +3,17 @@
 
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: include/InitialMenu.h
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: include/LogIn.h
+CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: include/SignUp.h
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: src/FlightsManager.cpp
 
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: include/InitialMenu.h
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: include/LogIn.h
+CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: include/SignUp.h
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: src/InitialMenu.cpp
 
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o: include/LogIn.h
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o: src/LogIn.cpp
+
+CMakeFiles/my_exe.dir/src/SignUp.cpp.o: include/SignUp.h
+CMakeFiles/my_exe.dir/src/SignUp.cpp.o: src/SignUp.cpp
 
