@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/radu/Projects/FlightsManager/include/InitialMenu.h
+iostream
+-
+memory
+-
+./LogIn.h
+/home/radu/Projects/FlightsManager/include/LogIn.h
+
 /home/radu/Projects/FlightsManager/include/LogIn.h
 iostream
 -
@@ -15,6 +23,20 @@ unordered_map
 -
 fstream
 -
+
+/home/radu/Projects/FlightsManager/src/FlightsManager.cpp
+iostream
+-
+memory
+-
+../include/LogIn.h
+/home/radu/Projects/FlightsManager/include/LogIn.h
+../include/InitialMenu.h
+/home/radu/Projects/FlightsManager/include/InitialMenu.h
+
+/home/radu/Projects/FlightsManager/src/InitialMenu.cpp
+../include/InitialMenu.h
+/home/radu/Projects/FlightsManager/include/InitialMenu.h
 
 /home/radu/Projects/FlightsManager/src/LogIn.cpp
 ../include/LogIn.h
