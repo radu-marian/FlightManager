@@ -9,6 +9,8 @@
 /home/radu/Projects/FlightsManager/include/SignUp.h
 iostream
 -
+fstream
+-
 
 /home/radu/Projects/FlightsManager/src/SignUp.cpp
 ../include/SignUp.h
