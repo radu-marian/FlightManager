@@ -51,7 +51,7 @@ void LogIn::CheckUser()
         {
             if (password == temp_password)
             {
-                std::cout << "It is alrigth!\n";
+                
             }
             else
             {
