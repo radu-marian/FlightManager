@@ -3,27 +3,33 @@
 
 CMakeFiles/my_exe.dir/src/AddFlight.cpp.o
  /home/radu/Projects/FlightsManager/include/AddFlight.h
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/AddFlight.cpp
 CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o
  /home/radu/Projects/FlightsManager/include/AddFlight.h
  /home/radu/Projects/FlightsManager/include/AdminMenu.h
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/AdminMenu.cpp
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o
  /home/radu/Projects/FlightsManager/include/AddFlight.h
  /home/radu/Projects/FlightsManager/include/AdminMenu.h
  /home/radu/Projects/FlightsManager/include/InitialMenu.h
  /home/radu/Projects/FlightsManager/include/LogIn.h
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/FlightsManager.cpp
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o
  /home/radu/Projects/FlightsManager/include/AddFlight.h
  /home/radu/Projects/FlightsManager/include/AdminMenu.h
  /home/radu/Projects/FlightsManager/include/InitialMenu.h
  /home/radu/Projects/FlightsManager/include/LogIn.h
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/InitialMenu.cpp
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o
  /home/radu/Projects/FlightsManager/include/AddFlight.h
  /home/radu/Projects/FlightsManager/include/AdminMenu.h
  /home/radu/Projects/FlightsManager/include/LogIn.h
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/LogIn.cpp
 CMakeFiles/my_exe.dir/src/Time.cpp.o
+ /home/radu/Projects/FlightsManager/include/Time.h
  /home/radu/Projects/FlightsManager/src/Time.cpp

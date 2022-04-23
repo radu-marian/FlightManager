@@ -11,4 +11,6 @@ void AddFlight::GetInfo()
     std::cin >> departure;
     std::cout << "Arrival: ";
     std::cin >> arrival;
+    std::cout << "Enter departure time: \n";
+    this->departure_time.GetTime();
 }
