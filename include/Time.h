@@ -10,7 +10,8 @@ private:
     unsigned int hour;
     unsigned int minute;
 public:
-    // friend std::istream& operator>>(std::istream& is, Time& obj);
+    friend std::ostream& operator<<(std::ostream& os, Time& obj);
 
     void GetTime();
+    bool IsValid();
 };
