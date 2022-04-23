@@ -32,8 +32,6 @@ void LogIn::CheckUser()
 
     this->HashPassword();
 
-    std::cout << file.is_open();
-
     while (std::getline(file, line))
     {
         length = line.length();
@@ -45,13 +43,13 @@ void LogIn::CheckUser()
         }
 
         temp_email = line.substr(0, i);
-        temp_password = line.substr(i, length - i);
+        temp_password = line.substr(i + 1, length - i);
 
         if (email == temp_email)
         {
             if (password == temp_password)
             {
-                std::cout << "It is alrigth!\n";
+                AdminMenu admin_menu_object;
             }
             else
             {
