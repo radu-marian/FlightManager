@@ -49,7 +49,7 @@ void LogIn::CheckUser()
         {
             if (password == temp_password)
             {
-                AdminMenu admin_menu_object;
+                
             }
             else
             {
@@ -60,9 +60,6 @@ void LogIn::CheckUser()
         {
             std::cout << "You are not registered!\n";
         }
-
     }
-
-
     file.close();
 }
