@@ -258,32 +258,32 @@ src/LogIn.cpp.s:
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/LogIn.cpp.s
 .PHONY : src/LogIn.cpp.s
 
-src/Time.o: src/Time.cpp.o
+src/SignUp.o: src/SignUp.cpp.o
 
-.PHONY : src/Time.o
+.PHONY : src/SignUp.o
 
 # target to build an object file
-src/Time.cpp.o:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/Time.cpp.o
-.PHONY : src/Time.cpp.o
+src/SignUp.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.o
+.PHONY : src/SignUp.cpp.o
 
-src/Time.i: src/Time.cpp.i
+src/SignUp.i: src/SignUp.cpp.i
 
-.PHONY : src/Time.i
+.PHONY : src/SignUp.i
 
 # target to preprocess a source file
-src/Time.cpp.i:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/Time.cpp.i
-.PHONY : src/Time.cpp.i
+src/SignUp.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.i
+.PHONY : src/SignUp.cpp.i
 
-src/Time.s: src/Time.cpp.s
+src/SignUp.s: src/SignUp.cpp.s
 
-.PHONY : src/Time.s
+.PHONY : src/SignUp.s
 
 # target to generate assembly for a file
-src/Time.cpp.s:
-	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/Time.cpp.s
-.PHONY : src/Time.cpp.s
+src/SignUp.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/SignUp.cpp.s
+.PHONY : src/SignUp.cpp.s
 
 # Help Target
 help:
@@ -309,9 +309,9 @@ help:
 	@echo "... src/LogIn.o"
 	@echo "... src/LogIn.i"
 	@echo "... src/LogIn.s"
-	@echo "... src/Time.o"
-	@echo "... src/Time.i"
-	@echo "... src/Time.s"
+	@echo "... src/SignUp.o"
+	@echo "... src/SignUp.i"
+	@echo "... src/SignUp.s"
 .PHONY : help
 
 

@@ -19,7 +19,7 @@ void InitialMenu::GetOption()
     }
     else if (option == 2)
     {
-
+        std::unique_ptr<SignUp> sign_up_object (new SignUp());
     }
     else if (option == 3)
     {
