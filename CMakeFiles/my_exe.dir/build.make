@@ -57,9 +57,35 @@ include CMakeFiles/my_exe.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/my_exe.dir/flags.make
 
+CMakeFiles/my_exe.dir/src/AddFlight.cpp.o: CMakeFiles/my_exe.dir/flags.make
+CMakeFiles/my_exe.dir/src/AddFlight.cpp.o: src/AddFlight.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_exe.dir/src/AddFlight.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_exe.dir/src/AddFlight.cpp.o -c /home/radu/Projects/FlightsManager/src/AddFlight.cpp
+
+CMakeFiles/my_exe.dir/src/AddFlight.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_exe.dir/src/AddFlight.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radu/Projects/FlightsManager/src/AddFlight.cpp > CMakeFiles/my_exe.dir/src/AddFlight.cpp.i
+
+CMakeFiles/my_exe.dir/src/AddFlight.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_exe.dir/src/AddFlight.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radu/Projects/FlightsManager/src/AddFlight.cpp -o CMakeFiles/my_exe.dir/src/AddFlight.cpp.s
+
+CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o: CMakeFiles/my_exe.dir/flags.make
+CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o: src/AdminMenu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o -c /home/radu/Projects/FlightsManager/src/AdminMenu.cpp
+
+CMakeFiles/my_exe.dir/src/AdminMenu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_exe.dir/src/AdminMenu.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/radu/Projects/FlightsManager/src/AdminMenu.cpp > CMakeFiles/my_exe.dir/src/AdminMenu.cpp.i
+
+CMakeFiles/my_exe.dir/src/AdminMenu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_exe.dir/src/AdminMenu.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radu/Projects/FlightsManager/src/AdminMenu.cpp -o CMakeFiles/my_exe.dir/src/AdminMenu.cpp.s
+
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: CMakeFiles/my_exe.dir/flags.make
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o: src/FlightsManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o -c /home/radu/Projects/FlightsManager/src/FlightsManager.cpp
 
 CMakeFiles/my_exe.dir/src/FlightsManager.cpp.i: cmake_force
@@ -72,7 +98,7 @@ CMakeFiles/my_exe.dir/src/FlightsManager.cpp.s: cmake_force
 
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: CMakeFiles/my_exe.dir/flags.make
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o: src/InitialMenu.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o -c /home/radu/Projects/FlightsManager/src/InitialMenu.cpp
 
 CMakeFiles/my_exe.dir/src/InitialMenu.cpp.i: cmake_force
@@ -85,7 +111,7 @@ CMakeFiles/my_exe.dir/src/InitialMenu.cpp.s: cmake_force
 
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o: CMakeFiles/my_exe.dir/flags.make
 CMakeFiles/my_exe.dir/src/LogIn.cpp.o: src/LogIn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/my_exe.dir/src/LogIn.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/my_exe.dir/src/LogIn.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_exe.dir/src/LogIn.cpp.o -c /home/radu/Projects/FlightsManager/src/LogIn.cpp
 
 CMakeFiles/my_exe.dir/src/LogIn.cpp.i: cmake_force
@@ -109,8 +135,11 @@ CMakeFiles/my_exe.dir/src/SignUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_exe.dir/src/SignUp.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/radu/Projects/FlightsManager/src/SignUp.cpp -o CMakeFiles/my_exe.dir/src/SignUp.cpp.s
 
+
 # Object files for target my_exe
 my_exe_OBJECTS = \
+"CMakeFiles/my_exe.dir/src/AddFlight.cpp.o" \
+"CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o" \
 "CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o" \
 "CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o" \
 "CMakeFiles/my_exe.dir/src/LogIn.cpp.o" \
@@ -119,14 +148,16 @@ my_exe_OBJECTS = \
 # External object files for target my_exe
 my_exe_EXTERNAL_OBJECTS =
 
+my_exe: CMakeFiles/my_exe.dir/src/AddFlight.cpp.o
+my_exe: CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o
 my_exe: CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o
 my_exe: CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o
 my_exe: CMakeFiles/my_exe.dir/src/LogIn.cpp.o
+
 my_exe: CMakeFiles/my_exe.dir/src/SignUp.cpp.o
 my_exe: CMakeFiles/my_exe.dir/build.make
 my_exe: CMakeFiles/my_exe.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/radu/Projects/FlightsManager/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable my_exe"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/my_exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 CMakeFiles/my_exe.dir/build: my_exe

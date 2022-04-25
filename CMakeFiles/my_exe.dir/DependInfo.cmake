@@ -4,6 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/radu/Projects/FlightsManager/src/AddFlight.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/AddFlight.cpp.o"
+  "/home/radu/Projects/FlightsManager/src/AdminMenu.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o"
   "/home/radu/Projects/FlightsManager/src/FlightsManager.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
   "/home/radu/Projects/FlightsManager/src/InitialMenu.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
   "/home/radu/Projects/FlightsManager/src/LogIn.cpp" "/home/radu/Projects/FlightsManager/CMakeFiles/my_exe.dir/src/LogIn.cpp.o"

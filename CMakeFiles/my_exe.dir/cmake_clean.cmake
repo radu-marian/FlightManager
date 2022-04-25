@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_exe.dir/src/AddFlight.cpp.o"
+  "CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o"
   "CMakeFiles/my_exe.dir/src/FlightsManager.cpp.o"
   "CMakeFiles/my_exe.dir/src/InitialMenu.cpp.o"
   "CMakeFiles/my_exe.dir/src/LogIn.cpp.o"

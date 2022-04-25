@@ -15,7 +15,7 @@ void InitialMenu::GetOption()
 
     if (option == 1)
     {
-        std::unique_ptr<LogIn> log_in_object (new LogIn());
+        LogIn log_in_object;
     }
     else if (option == 2)
     {

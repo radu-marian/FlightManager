@@ -123,6 +123,60 @@ my_exe/fast:
 	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/build
 .PHONY : my_exe/fast
 
+src/AddFlight.o: src/AddFlight.cpp.o
+
+.PHONY : src/AddFlight.o
+
+# target to build an object file
+src/AddFlight.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AddFlight.cpp.o
+.PHONY : src/AddFlight.cpp.o
+
+src/AddFlight.i: src/AddFlight.cpp.i
+
+.PHONY : src/AddFlight.i
+
+# target to preprocess a source file
+src/AddFlight.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AddFlight.cpp.i
+.PHONY : src/AddFlight.cpp.i
+
+src/AddFlight.s: src/AddFlight.cpp.s
+
+.PHONY : src/AddFlight.s
+
+# target to generate assembly for a file
+src/AddFlight.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AddFlight.cpp.s
+.PHONY : src/AddFlight.cpp.s
+
+src/AdminMenu.o: src/AdminMenu.cpp.o
+
+.PHONY : src/AdminMenu.o
+
+# target to build an object file
+src/AdminMenu.cpp.o:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AdminMenu.cpp.o
+.PHONY : src/AdminMenu.cpp.o
+
+src/AdminMenu.i: src/AdminMenu.cpp.i
+
+.PHONY : src/AdminMenu.i
+
+# target to preprocess a source file
+src/AdminMenu.cpp.i:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AdminMenu.cpp.i
+.PHONY : src/AdminMenu.cpp.i
+
+src/AdminMenu.s: src/AdminMenu.cpp.s
+
+.PHONY : src/AdminMenu.s
+
+# target to generate assembly for a file
+src/AdminMenu.cpp.s:
+	$(MAKE) -f CMakeFiles/my_exe.dir/build.make CMakeFiles/my_exe.dir/src/AdminMenu.cpp.s
+.PHONY : src/AdminMenu.cpp.s
+
 src/FlightsManager.o: src/FlightsManager.cpp.o
 
 .PHONY : src/FlightsManager.o
@@ -240,6 +294,12 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... my_exe"
+	@echo "... src/AddFlight.o"
+	@echo "... src/AddFlight.i"
+	@echo "... src/AddFlight.s"
+	@echo "... src/AdminMenu.o"
+	@echo "... src/AdminMenu.i"
+	@echo "... src/AdminMenu.s"
 	@echo "... src/FlightsManager.o"
 	@echo "... src/FlightsManager.i"
 	@echo "... src/FlightsManager.s"

@@ -49,12 +49,16 @@ void LogIn::CheckUser()
         {
             if (password == temp_password)
             {
-                std::cout << "You are logged in!\n";
+              
             }
             else
             {
                 std::cout << "Incorrect password!\n";
             }
+        }
+        else
+        {
+            std::cout << "You are not registered!\n";
         }
     }
     file.close();
