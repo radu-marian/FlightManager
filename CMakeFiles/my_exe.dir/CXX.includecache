@@ -6,17 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/radu/Projects/FlightsManager/include/LogIn.h
+/home/radu/Projects/FlightsManager/include/AddFlight.h
 iostream
--
-string
--
-unordered_map
 -
 fstream
 -
+string
+-
+sstream
+-
+time.h
+-
+Time.h
+/home/radu/Projects/FlightsManager/include/Time.h
 
-/home/radu/Projects/FlightsManager/src/LogIn.cpp
-../include/LogIn.h
-/home/radu/Projects/FlightsManager/include/LogIn.h
+/home/radu/Projects/FlightsManager/include/Time.h
+iostream
+-
+
+/home/radu/Projects/FlightsManager/src/AddFlight.cpp
+../include/AddFlight.h
+/home/radu/Projects/FlightsManager/include/AddFlight.h
 
